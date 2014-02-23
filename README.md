@@ -9,10 +9,10 @@ Features
 ===================
 
 * Overview of your whole editor
-![CodeOverview](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview.png)
+![CodeOverview](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview-overview.png)
 
 * Customizable zoom
-![Zoom](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview-Zoom.png)
+![Zoom](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview-zoom-big.png)
 
 How To
 ===================
