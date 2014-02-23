@@ -34,6 +34,7 @@
  *  OverviewAttached
  *  ZoomApplied
  *  OverviewVisible
+ *  OverviewHidden
  */
 // ------------------------------------------------------------------------
 /*global define, brackets, Mustache, $ */
@@ -178,6 +179,7 @@ define(function (require, exports, module) {
                 // If visible, hide
                 if (overview.is(":visible")) {
                     overview.hide();
+                    _triggerEvent("OverviewHidden", {});
                 } else if (icon.hasClass("enabled")) {
                     // Else if hidden and enabled
                     

@@ -169,6 +169,11 @@ define(function (require, exports, module) {
         $(ViewManager).on("OverviewVisible", function () {
             _reloadOverviewEditor();
         });
+        
+        $(ViewManager).on("OverviewHidden", function () {
+            _overviewEditor.destroy();
+            _overviewEditor = null;
+        });
     }
     
     /*
