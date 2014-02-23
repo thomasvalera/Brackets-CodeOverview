@@ -1,0 +1,130 @@
+.co-icon {
+    font-size: 20px;
+}
+
+.co-icon-wrapper {
+    line-height: 25px !important;
+}
+
+.co-icon-wrapper.disabled {
+    color:red;
+}
+
+.co-icon-wrapper.enabled {
+    color:greed;
+}
+
+.code-overview-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    z-index: 10000000;
+    overflow: hidden;
+    min-width: 100px;
+/*    margin-right: 20px;*/
+    display: none;
+}
+
+.code-overview-wrapper .CodeMirror-cursor {
+/*    display: none !important;*/
+}
+
+.code-overview-content-wrapper {
+    height: 100%;
+}
+.code-overview-content {
+    height: 100%;
+}
+
+.code-overview-content .CodeMirror {
+    height: 100% !important;
+    display:inline-block;
+    white-space: nowrap;
+    background-color: rgba(0,0,0, 0.4) !important;
+    min-width: 100%;
+}
+
+.code-overview-content .CodeMirror .CodeMirror-gutters,
+.code-overview-content .CodeMirror .CodeMirror-gutter-wrapper {
+    display: none;
+}
+
+.code-overview-slider-wrapper {
+    height: 20px;
+    overflow:hidden;
+    font-size: 15px;
+    color: white;
+    float:left;
+    width:100%;
+}
+
+
+
+.code-overview-slider-min {
+    width: 20px;
+    height: 100%;
+    background: #5d5f60;
+    float:left;
+}
+
+.code-overview-slider-plus {
+    width: 20px;
+    height: 100%;
+    background: #5d5f60;
+    float:right;
+}
+
+.slider {
+    width: 140px !important;
+    float:left;
+    height: 100%;
+    margin-left: 10px !important;
+}
+
+
+.slider > .dragger {
+  background: #5d5f60;
+  width: 16px;
+  height: 16px;
+}
+
+
+.slider > .track, .slider > .highlight-track {
+  background: rgba(0,0,0, 0.4);
+
+  height: 100%;
+}
+
+/* font-face */
+@font-face {
+  font-family: "AccessibilityFoundicons";
+  src: url("fonts/accessibility_foundicons.eot");
+  src: url("fonts/accessibility_foundicons.eot?#iefix") format("embedded-opentype"), url("fonts/accessibility_foundicons.woff") format("woff"), url("../fonts/accessibility_foundicons.ttf") format("truetype"), url("fonts/accessibility_foundicons.svg#AccessibilityFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+[class*="co-foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="co-foundicon-"]:before {
+  font-family: "AccessibilityFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+.co-foundicon-eyeball:before {
+  content: "\f005";
+}
