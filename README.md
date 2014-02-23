@@ -8,10 +8,10 @@ With CodeOverview you will never have to scroll up and down hundreads of times b
 Features
 ===================
 
-* Overview of your whole editor
+* Overview of your whole editor  
 ![CodeOverview](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview-overview.png)
 
-* Customizable zoom
+* Customizable zoom  
 ![Zoom](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview-zoom-big.png)
 
 How To
