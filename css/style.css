@@ -76,7 +76,7 @@
     float:right;
 }
 
-.slider {
+.code-overview-wrapper .slider {
     width: 140px !important;
     float:left;
     height: 100%;
@@ -84,14 +84,14 @@
 }
 
 
-.slider > .dragger {
+.code-overview-wrapper .slider > .dragger {
   background: #5d5f60;
   width: 16px;
   height: 16px;
 }
 
 
-.slider > .track, .slider > .highlight-track {
+.code-overview-wrapper .slider > .track, .code-overview-wrapper .slider > .highlight-track {
   background: rgba(0,0,0, 0.4);
 
   height: 100%;
