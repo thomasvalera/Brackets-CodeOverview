@@ -115,7 +115,7 @@ define(function (require, exports, module) {
         var content = overview.find("#code-overview-content");
         
         // Get Overview's CodeMirror wrapper
-        var CMWrapper = content.find(".CodeMirror-wrap").first();
+        var CMWrapper = content.find(".CodeMirror").first();
         
         if (CMWrapper.length > 0) {
             // If first time zooming, use this chance to get the original values
