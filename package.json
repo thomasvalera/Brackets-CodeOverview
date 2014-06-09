@@ -3,7 +3,7 @@
     "title": "CodeOverview",
     "description": "An easy to use overview of your editor's code.",
     "homepage": "https://github.com/thomasvalera/Brackets-CodeOverview",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "thomasvalera <thomasvalera@gmail.com> (https://github.com/thomasvalera)",
     "license": "MIT",
     "engines": {
