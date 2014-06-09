@@ -7,11 +7,11 @@
 }
 
 .co-icon-wrapper.disabled {
-    color:red;
+    color: #F74687;
 }
 
 .co-icon-wrapper.enabled {
-    color:greed;
+    color: #91CC41;
 }
 
 .code-overview-wrapper {
@@ -27,9 +27,9 @@
     display: none;
 }
 
-.code-overview-wrapper .CodeMirror-cursor {
-/*    display: none !important;*/
-}
+/*.code-overview-wrapper .CodeMirror-cursor {
+    display: none !important;
+}*/
 
 .code-overview-content-wrapper {
     height: 100%;
