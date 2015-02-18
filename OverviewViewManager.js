@@ -116,6 +116,9 @@ define(function (require, exports, module) {
         
         // Get Overview's CodeMirror wrapper
         var CMWrapper = content.find(".CodeMirror").first();
+
+        // Get overview's CodeMirror-scroll wrapper
+        var CMScroll = content.find(".CodeMirror-scroll").first();
         
         if (CMWrapper.length > 0) {
             // If first time zooming, use this chance to get the original values
@@ -128,9 +131,9 @@ define(function (require, exports, module) {
             var newFontSize = masterFontSize * zoom + "px",
                 newLineHeight = masterLineHeight * zoom + "px";
             
-            // Set properties to overview's CodeMirror
-            CMWrapper.get(0).style.setProperty("font-size", newFontSize, "!important");
-            CMWrapper.get(0).style.setProperty("line-height", newLineHeight, "!important");
+            // Set properties to overview's CodeMirror-scroll
+            CMScroll.css("font-size", newFontSize, "!important");
+            CMScroll.css("line-height", newLineHeight, "!important");
             
             _triggerEvent("ZoomApplied", {});
         }
