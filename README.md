@@ -5,6 +5,11 @@ _Scroll up, scroll up, scroll up ... oh wait ... scrool down, scroll down ... hm
 Well friend, wish no more because CodeOverview is here!
 With CodeOverview you will never have to scroll up and down hundreads of times before you find what you are looking for! Open the overview in 1 easy click, adapt the overview's zoom level to your convenience and you are ready to go and find what you need in the blink of an eye!
 
+Note
+===================
+
+Due to lack of time, this extension will not see any updates anymore. If you like it, I encourage you to fork it and unleash your creativity!
+
 Features
 ===================
 
@@ -45,11 +50,11 @@ FAQ
   - If the icon is red, this means you probably don't have any editor open! Open a file and it will work again!
   
 * Does he know how awesome this extension is?
-  - You tell me! If you like this extension I would be happy to hear your thoughts about it, send me an email at thomasvalera@gmail.com!
+  - You tell me! Fork, contribute and keep this extension alive!
 
 * A bug?
   - Open an issue and I will try to fix it as quickly as possible!
   
 Contact
 ===================
-If you want to contribute, ask some questions or even discuss possible features to add, send me an email at thomasvalera@gmail.com.
+If you want to contribute, ask some questions or even discuss possible features to add, open an _enhancement_ ticket or fork this repo!
