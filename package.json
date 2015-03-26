@@ -2,6 +2,7 @@
     "name": "brackets-codeoverview",
     "title": "CodeOverview",
     "description": "An easy to use overview of your editor's code.",
+    "keywords": [ "mini map", "minimap", "mini-map" ],
     "homepage": "https://github.com/thomasvalera/Brackets-CodeOverview",
     "version": "1.0.3",
     "author": "thomasvalera <thomasvalera@gmail.com> (https://github.com/thomasvalera)",
