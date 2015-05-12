@@ -1,7 +1,24 @@
+Brackets CodeOverview FORKED!
+===================
+
+Fixes and Features
+===================
++ Minimap stays open when switching files
++ Zoom set to 25% by default
++ Slightly wider minimap
++ Fixed Zooming
+
+Todo
+===================
++ Minimap is open by default
++ Minimap no longer overlaps code viewport
+
+(Original README.md below)
+
 Brackets CodeOverview
 ===================
 
-_Scroll up, scroll up, scroll up ... oh wait ... scrool down, scroll down ... hm I wish I didn't have to scroll so much to find the code I need!_  
+Scroll up, scroll up, scroll up ... oh wait ... scroll down, scroll down ... hm I wish I didn't have to scroll so much to find the code I need!_
 Well friend, wish no more because CodeOverview is here!
 With CodeOverview you will never have to scroll up and down hundreads of times before you find what you are looking for! Open the overview in 1 easy click, adapt the overview's zoom level to your convenience and you are ready to go and find what you need in the blink of an eye!
 
@@ -13,10 +30,10 @@ Due to lack of time, this extension will not see any updates anymore. If you lik
 Features
 ===================
 
-* Overview of your whole editor  
+* Overview of your whole editor
 ![CodeOverview](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview-overview.png)
 
-* Customizable zoom  
+* Customizable zoom
 ![Zoom](https://raw.github.com/thomasvalera/Brackets-CodeOverview/master/images/Brackets-CodeOverview-zoom-big.png)
 
 How To
@@ -48,13 +65,13 @@ FAQ
 
 * The icon is red and doesn't work!
   - If the icon is red, this means you probably don't have any editor open! Open a file and it will work again!
-  
+
 * Does he know how awesome this extension is?
   - You tell me! Fork, contribute and keep this extension alive!
 
 * A bug?
   - Open an issue and I will try to fix it as quickly as possible!
-  
+
 Contact
 ===================
 If you want to contribute, ask some questions or even discuss possible features to add, open an _enhancement_ ticket or fork this repo!
